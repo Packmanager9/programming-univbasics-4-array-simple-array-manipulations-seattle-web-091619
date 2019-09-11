@@ -47,7 +47,7 @@ array[k].delete
 end
   k++
 end
-  
+
 end
 
 def using_delete_at (array, integer)
