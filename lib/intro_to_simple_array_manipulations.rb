@@ -39,7 +39,7 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  a = array.include?(string).index
+  a = array.include?(string)
   array.delete(a)
 end
 
