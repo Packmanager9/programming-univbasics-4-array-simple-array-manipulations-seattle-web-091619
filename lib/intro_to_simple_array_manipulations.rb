@@ -39,10 +39,17 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  a = array.include?(string)
-  array.delete(a)
+
+k = 0
+for k < array.size do
+if array[k] == string do
+array[k].delete
+end
+  k++
+end
+  
 end
 
-def using_delete_at (array)
-  array.delete(2)
+def using_delete_at (array, integer)
+  array.delete(integer)
 end
