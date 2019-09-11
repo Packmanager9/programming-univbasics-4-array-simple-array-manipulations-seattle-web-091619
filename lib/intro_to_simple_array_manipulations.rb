@@ -40,13 +40,8 @@ end
 
 def using_delete(array, string)
 
-k = 0
-for array.length > k
-if array[k] == string
-array[k].delete
-end
-  k++
-end
+array.delete(string)
+
 
 end
 
