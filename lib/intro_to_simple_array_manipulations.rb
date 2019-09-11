@@ -11,11 +11,11 @@ def using_pop (array)
 end
 
 def using_with_args(array)
-  array.
+#  array.
 end
 
 def using_shift(array)
-  array.
+  array.shift
 end
 
 def using_concat(array1, array2)
