@@ -41,7 +41,7 @@ end
 def using_delete(array, string)
 
 k = 0
-for k < array.size do
+for k <= array.size do
 if array[k] == string do
 array[k].delete
 end
